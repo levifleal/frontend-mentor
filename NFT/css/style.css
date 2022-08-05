@@ -1,15 +1,15 @@
 :root{
     /*  Cores  */
-    --Soft-blue: hsl(215, 51%, 70%)
-    --Cyan: hsl(178, 100%, 50%)
-    --mainbg: hsl(217, 54%, 11%)
-    --cardbg: hsl(216, 50%, 16%)
-    --line: hsl(215, 32%, 27%)
-    --White: hsl(0, 0%, 100%)
+    --Soft-blue: #8bacda
+    --Cyan: #00fff7
+    --mainbg: #0d192b
+    --cardbg: #14253d
+    --line: #2f415b;
+    --White: #ffffff;
 
     /*  width  */
     --wMobile: 375px ;
-    --wDesktop: 1440px;
+    --wDesktop: 1440px ;
 }
 
 body{
@@ -19,4 +19,8 @@ body{
 
 .container{
     width: var(--wDesktop);
+}
+
+.card{
+    max-width: 800px;
 }
