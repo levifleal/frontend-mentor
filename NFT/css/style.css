@@ -19,19 +19,28 @@
 .container{
     display: flex;
     align-items: center;
-    justify-content: center;
-    max-width: var(--wDesktop);
-    padding: 10px;
+    justify-content: center;    
 }
 
 .card{
     max-width: 400px;
     background: var(--mainbg);
+    padding: 10px;
 }
 
 .card__img{
     width:100%;
 }
+
+.card__title{
+    color: var(--White);
+}
+
+.card__text{
+    font-size: 18px;
+    color: var(--Soft-blue);
+}
+
 
 hr{
     color:var(--line);
