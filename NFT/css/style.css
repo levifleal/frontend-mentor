@@ -12,25 +12,9 @@
     --wDesktop: 1440px ;
 }
 
-.main{
-    background: var(--mainbg);
-    position: relative;
-}
-
 .container{
-    width: var(--wDesktop);
-    position: absolute;
-    left:50%;
-    top:50%;
-    transform: translate(-50%,-50%);
-}
-
-.card{
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.card__img{
-    width:100%;
-}
