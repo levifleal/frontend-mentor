@@ -64,11 +64,11 @@ html{
 }
 
 .card__value::before{
-    content: url(../image/icon-ethereum.svg);
+    content: url(../image/icon-ethereum.svg) " \00A0 \00A0";
 }
 
 .card__time-left::before{
-    content: url(../image/icon-clock.svg);
+    content: url(../image/icon-clock.svg) " \00A0 \00A0";
 }
 
 hr{
