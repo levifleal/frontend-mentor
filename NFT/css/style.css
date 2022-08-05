@@ -22,6 +22,7 @@ html{
     display: flex;
     justify-content: center;
     font-family: 'outfit', sans-serif;
+    height: calc( 100vh - 18px);
 }
 
 .container{
@@ -31,7 +32,7 @@ html{
 }
 
 .card{
-    max-width: 400px;
+    max-width: 300px;
     background: var(--mainbg);
     padding: 15px;
     border-radius: 10px;
@@ -53,6 +54,7 @@ html{
     color: var(--Soft-blue);
     text-align: justify;
     margin-top: 10px;
+    font-weight: 300;
 }
 
 
@@ -75,8 +77,10 @@ hr{
 .creator__text{
     color:var(--Soft-blue);
     margin-left: 15px;
+    font-weight: 400;
 }
 
 .creator strong{
     color: var(--White);
+    font-weight: 600;
 }
