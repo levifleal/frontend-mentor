@@ -85,7 +85,7 @@ html{
 }
 
 .value__img .time-left__img{
-    line-height: 20px;
+    vertical-align: top;
 }
 
 .card__time-left{
