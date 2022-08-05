@@ -1,9 +1,9 @@
 :root{
     /*  Cores  */
-    --Soft-blue: #8bacda
-    --Cyan: #00fff7
-    --mainbg: #0d192b
-    --cardbg: #14253d
+    --Soft-blue: #8bacda;
+    --Cyan: #00fff7;
+    --mainbg: #0d192b;
+    --cardbg: #14253d;
     --line: #2f415b;
     --White: #ffffff;
 
@@ -19,8 +19,13 @@ body{
 
 .container{
     width: var(--wDesktop);
+    position: relative;
 }
 
 .card{
     max-width: 800px;
+    position: absolute;
+    left:50%;
+    top:50%;
+    transform: translate(50%,50%);
 }
