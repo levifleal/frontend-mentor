@@ -27,6 +27,7 @@
     max-width: 400px;
     background: var(--mainbg);
     padding: 15px;
+    border-radius: 10px;
 }
 
 .card__img{
