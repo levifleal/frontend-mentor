@@ -31,3 +31,8 @@
     width:100%;
 }
 
+.creator__img{
+    width: 10px;
+    border-radius: 50%;
+}
+
