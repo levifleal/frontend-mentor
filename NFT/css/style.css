@@ -21,12 +21,12 @@
     align-items: center;
     justify-content: center;
     max-width: var(--wDesktop);
+    padding: 10px;
 }
 
 .card{
-    max-width: 600px;
+    max-width: 400px;
     background: var(--mainbg);
-    padding: 10px;
 }
 
 .card__img{
