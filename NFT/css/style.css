@@ -31,9 +31,21 @@
     width:100%;
 }
 
+.creator{
+    display:flex;
+}
+
 .creator__img{
     width: 25px;
     border-radius: 50%;
     border: var(--White) 1px solid;
 }
 
+.creator__text{
+    color:var(--line);
+    
+}
+
+.creator strong{
+    color: var(--White);
+}
