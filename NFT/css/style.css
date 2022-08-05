@@ -37,6 +37,7 @@ html{
     background: var(--cardbg);
     padding: 15px;
     border-radius: 10px;
+    box-shadow: 1px 2px 5px 5px #00000020;
 }
 
 .card__img{
@@ -56,6 +57,7 @@ html{
     color: var(--White);
     margin-top:10px;
     font-weight: 600;
+    
 }
 
 .card__title:hover{
@@ -79,18 +81,12 @@ html{
 
 .card__value{
     color: var(--Cyan);
-}
-
-.card__value::before{
-    content: url(../image/icon-ethereum.svg) " \00A0 \00A0";
+    font-size: 16px;
 }
 
 .card__time-left{
     color: var(--Soft-blue);
-}
-
-.card__time-left::before{
-    content: url(../image/icon-clock.svg) " \00A0 \00A0";
+    font-size: 16px;
 }
 
 hr{
@@ -113,6 +109,7 @@ hr{
     color:var(--Soft-blue);
     margin-left: 15px;
     font-weight: 300;
+    font-size: 16px;
 }
 
 .creator strong{
