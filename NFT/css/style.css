@@ -32,7 +32,8 @@
 }
 
 .creator__img{
-    width: 10px;
+    width: 25px;
     border-radius: 50%;
+    border: var(--White) 1px solid;
 }
 
