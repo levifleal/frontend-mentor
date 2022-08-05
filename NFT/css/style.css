@@ -85,7 +85,7 @@ html{
 }
 
 .value__img .time-left__img{
-    text-anchor: start;
+    line-height: 20px;
 }
 
 .card__time-left{
