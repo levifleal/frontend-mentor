@@ -82,10 +82,10 @@ hr{
 .creator__text{
     color:var(--Soft-blue);
     margin-left: 15px;
-    font-weight: 400;
+    font-weight: 300;
 }
 
 .creator strong{
     color: var(--White);
-    font-weight: 600;
+    font-weight: 400;
 }
