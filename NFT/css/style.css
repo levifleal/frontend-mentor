@@ -84,11 +84,6 @@ html{
     color: var(--Cyan);
     font-size: 16px;
 }
-
-.card__value .card__time-left{
-    vertical-align: top;
-}
-
 .card__time-left{
     color: var(--Soft-blue);
     font-size: 16px;
