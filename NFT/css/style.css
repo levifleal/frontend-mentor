@@ -23,6 +23,7 @@ html{
     justify-content: center;
     font-family: 'outfit', sans-serif;
     height: calc( 100vh - 18px);
+    background: var(--mainbg);
 }
 
 .container{
@@ -84,7 +85,7 @@ html{
     content: url(../image/icon-ethereum.svg) " \00A0 \00A0";
 }
 
-.card__time-left:{
+.card__time-left{
     color: var(--Soft-blue);
 }
 
