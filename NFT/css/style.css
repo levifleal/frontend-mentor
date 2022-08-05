@@ -57,6 +57,11 @@ html{
     font-weight: 300;
 }
 
+.price{
+    display: flex;
+    justify-content: space-between;
+}
+
 
 hr{
     color:var(--line);
