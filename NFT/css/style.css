@@ -58,10 +58,18 @@ html{
 }
 
 .price{
+    margin-top: 10px;
     display: flex;
     justify-content: space-between;
 }
 
+.card__value::before{
+    content: url(../image/icon-ethereum.svg);
+}
+
+.card__time-left::before{
+    content: url(../image/icon-clock.svg);
+}
 
 hr{
     color:var(--line);
