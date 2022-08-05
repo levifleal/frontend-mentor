@@ -11,12 +11,16 @@
     --wMobile: 375px ;
     --wDesktop: 1440px ;
 }
+.main{
+    display: flex;
+    justify-content: center;
+}
 
 .container{
     display: flex;
     align-items: center;
     justify-content: center;
-    max-width: 800px;
+    max-width: 600px;
 }
 
 .card__img{
