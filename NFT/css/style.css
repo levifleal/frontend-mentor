@@ -44,10 +44,22 @@ html{
     border-radius: 10px;
 }
 
+.card__title:hover{
+    background: url(../image/icon-view.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    cursor: pointer;
+}
+
 .card__title{
     color: var(--White);
     margin-top:10px;
     font-weight: 600;
+}
+
+.card__title:hover{
+    color: var(--Cyan);
+    cursor: pointer;
 }
 
 .card__text{
@@ -61,10 +73,19 @@ html{
     margin-top: 10px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+}
+
+.card__value{
+    color: var(--Cyan);
 }
 
 .card__value::before{
     content: url(../image/icon-ethereum.svg) " \00A0 \00A0";
+}
+
+.card__time-left:{
+    color: var(--Soft-blue);
 }
 
 .card__time-left::before{
@@ -96,4 +117,9 @@ hr{
 .creator strong{
     color: var(--White);
     font-weight: 400;
+}
+
+.creator strong:hover{
+    color: var(--Cyan);
+    cursor: pointer;
 }
