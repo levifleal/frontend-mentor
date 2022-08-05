@@ -25,6 +25,7 @@
 
 .card{
     max-width: 600px;
+    background: var(--mainbg);
 }
 
 .card__img{
@@ -33,6 +34,7 @@
 
 .creator{
     display:flex;
+    align-items: center;
 }
 
 .creator__img{
@@ -43,7 +45,7 @@
 
 .creator__text{
     color:var(--line);
-    
+    margin-right: 5px;
 }
 
 .creator strong{
