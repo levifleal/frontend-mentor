@@ -19,3 +19,6 @@
     max-width: 800px;
 }
 
+.card__img{
+    width:100%;
+}
