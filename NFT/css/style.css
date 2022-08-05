@@ -85,7 +85,7 @@ html{
     font-size: 16px;
 }
 
-.value__img .time-left__img{
+.card__value .card__time-left{
     vertical-align: top;
 }
 
@@ -95,7 +95,7 @@ html{
 }
 
 hr{
-    color:var(--line);
+    color: var(--line);
     margin: 10px 0;
 }
 
