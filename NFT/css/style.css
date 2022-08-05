@@ -10,7 +10,14 @@
     /*  width  */
     --wMobile: 375px ;
     --wDesktop: 1440px ;
+
+    
 }
+
+html{
+    font-size: 18px;
+}
+
 .main{
     display: flex;
     justify-content: center;
@@ -43,7 +50,6 @@
 }
 
 .card__text{
-    font-size: 18px;
     color: var(--Soft-blue);
     text-align: justify;
     margin-top: 10px;
