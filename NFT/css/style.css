@@ -26,10 +26,15 @@
 .card{
     max-width: 600px;
     background: var(--mainbg);
+    padding: 10px;
 }
 
 .card__img{
     width:100%;
+}
+
+hr{
+    color:var(--line);
 }
 
 .creator{
@@ -44,7 +49,7 @@
 }
 
 .creator__text{
-    color:var(--line);
+    color:var(--Soft-blue);
     margin-right: 5px;
 }
 
