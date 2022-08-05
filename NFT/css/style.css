@@ -44,8 +44,8 @@ html{
     border-radius: 10px;
 }
 
-.card__title:hover{
-    background: url(../image/icon-view.svg);
+.card__img:hover{
+    background: var(--Cyan) url(../image/icon-view.svg);
     background-repeat: no-repeat;
     background-position: center center;
     cursor: pointer;
