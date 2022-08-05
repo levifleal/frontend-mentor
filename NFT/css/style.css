@@ -38,6 +38,7 @@ html{
     padding: 15px;
     border-radius: 10px;
     box-shadow: 1px 2px 5px 5px #00000020;
+    justify-content: space-around;
 }
 
 .card__img{
@@ -68,12 +69,12 @@ html{
 .card__text{
     color: var(--Soft-blue);
     text-align: justify;
-    margin-top: 10px;
+    /* margin-top: 10px; */
     font-weight: 300;
 }
 
 .price{
-    margin-top: 10px;
+    /* margin-top: 10px; */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -91,7 +92,7 @@ html{
 
 hr{
     color:var(--line);
-    margin: 10px 0;
+    /* margin: 10px 0; */
 }
 
 .creator{
