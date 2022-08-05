@@ -84,6 +84,10 @@ html{
     font-size: 16px;
 }
 
+.value__img .time-left__img{
+    height: 20px;
+}
+
 .card__time-left{
     color: var(--Soft-blue);
     font-size: 16px;
