@@ -34,7 +34,7 @@ html{
 
 .card{
     max-width: 300px;
-    background: var(--mainbg);
+    background: var(--cardbg);
     padding: 15px;
     border-radius: 10px;
 }
