@@ -26,7 +26,7 @@ body{
     display: flex;
     justify-content: center;
     font-family: 'outfit', sans-serif;
-    height: calc( 100vh - 18px);
+    height: calc( 100vh - 20px);
     background: var(--mainbg);
 }
 
