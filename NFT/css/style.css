@@ -82,13 +82,12 @@ html{
 
 .price__content{
     display: flex;
-    flex-direction: column;
-    
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
 
-.value__img, .time-left__img{
-    vertical-align: text-top;
-}
+
 
 .card__value{
     color: var(--Cyan);
