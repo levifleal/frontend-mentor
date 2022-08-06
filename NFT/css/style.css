@@ -48,12 +48,13 @@ html{
     border-radius: 10px;
 }
 
+.card__view{
+    /* display:none; */
+}
 
-
-.card__img:hover{
-    background: var(--Cyan) url(../image/icon-view.svg);
-    background-repeat: no-repeat;
-    background-position: center center;
+.card__img:hover .card__view{
+    display: block;
+    background-color: var(--Cyan);
     cursor: pointer;
 }
 
