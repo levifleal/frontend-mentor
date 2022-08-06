@@ -80,6 +80,12 @@ html{
     align-items: center;
 }
 
+.price__content{
+    display: flex;
+    flex-direction: column;
+    
+}
+
 .value__img, .time-left__img{
     vertical-align: text-top;
 }
