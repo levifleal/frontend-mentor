@@ -1,0 +1,19 @@
+.principal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #86999e, 184);
+}
+
+.title{
+    font-size: 1.5rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+.sitenft, .siteqr{
+    width: 960px;
+    height: 540px;
+
+}
