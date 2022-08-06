@@ -48,6 +48,10 @@ html{
     border-radius: 10px;
 }
 
+.card__div{
+    position: relative;
+}
+
 .card__view{
     /* display: none; */
     position: absolute;
