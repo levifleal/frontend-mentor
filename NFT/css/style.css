@@ -44,12 +44,11 @@ html{
 
 .card__img{
     width:100%;
+    height: auto;
     border-radius: 10px;
 }
 
-.no-display{
-    display: none;
-}
+
 
 .card__img:hover{
     background: var(--Cyan) url(../image/icon-view.svg);
