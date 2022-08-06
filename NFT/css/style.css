@@ -53,7 +53,7 @@ html{
 }
 
 .card__view{
-    /* display: none; */
+    display: none;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -62,7 +62,7 @@ html{
 
 }
 
-.card__img:hover .card__view{
+.div__view:hover .card__view{
     display: block;
 }
 
@@ -155,4 +155,14 @@ hr{
 .creator strong:hover{
     color: var(--Cyan);
     cursor: pointer;
+}
+
+.attribution{
+    background-color: #0d192b;
+    color: #2f415b;
+    text-align: center;
+}
+
+.attribution a{
+    color: #00fff7;
 }
