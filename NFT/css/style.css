@@ -80,6 +80,10 @@ html{
     align-items: center;
 }
 
+.value__img, .time-left__img{
+    vertical-align: text-top;
+}
+
 .card__value{
     color: var(--Cyan);
     font-size: 16px;
